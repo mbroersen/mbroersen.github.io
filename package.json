@@ -1,0 +1,51 @@
+{
+  "name": "mbroersen.github.io",
+  "version": "1.0.0",
+  "description": "showcase website",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "webpack --config=webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=./node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbroersen/mbroersen.github.io.git"
+  },
+  "keywords": [
+    "jeloquent",
+    "sudoku",
+    "javascript",
+    "mark",
+    "broersen",
+    "chess"
+  ],
+  "author": "Mark Broersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbroersen/mbroersen.github.io/issues"
+  },
+  "homepage": "https://mbroersen.github.io",
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.7",
+    "mini-css-extract-plugin": "^1.2.1",
+    "postcss-import": "^13.0.0",
+    "postcss-nested": "^5.0.1",
+    "sass": "^1.28.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}

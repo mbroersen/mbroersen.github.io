@@ -3,14 +3,355 @@
 <head>
     <meta charset="UTF-8">
     <title>Mark Broersen</title>
+    <link rel="stylesheet" href="public/css/main.css">
 </head>
-<body>
-    <h1>My Github Page</h1>
+<body class="text-gray-900 antialiased leading-tight">
+<!--
+Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+Read the documentation to get started: https://tailwindui.com/documentation
+-->
+<!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+-->
+<!-- This example requires Tailwind CSS v1.4.0+ -->
+<nav>
+    <div class="relative bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+                <div class="lg:w-0 lg:flex-1">
+                    <a href="#" class="flex">
+                        <svg viewBox="0 0 600 600" class="h-8 w-auto sm:h-10" xmlns="http://www.w3.org/2000/svg">
+                            <title>Jeloquent Logo</title>
+                            <g>
+                                <title>Jeloquent - package</title>
+                                <rect stroke="#000000" id="svg_1" height="166" width="220" y="110.45313" x="41.5" stroke-width="7" fill="#ffffff"/>
+                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="139.45313" x2="261.5" y1="139.45313" x1="41.5" stroke-width="6" stroke="#000000" fill="none"/>
+                                <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_16" y="129.45313" x="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Jeloquent</text>
+                            </g>
 
-    <h3>Projects</h3>
+                            <g>
+                                <title>Js - javascript</title>
+                                <rect stroke="#000000" id="svg_5" height="166" width="220" y="322.45313" x="190" stroke-width="7" fill="#ffffff"/>
+                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="352.45313" x2="408.5" y1="352.45313" x1="188.5" stroke-width="5.5" stroke="#000000" fill="none"/>
+                                <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_18" y="341.45313" x="202.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Js</text>
+                            </g>
 
-    <ul>
-        <li><a href="/Mbjs">Mb javascript library</a></li>
-    </ul>
+                            <g>
+                                <title>Orm - memory store</title>
+                                <rect stroke="#000000" id="svg_9" height="166" width="220" y="110.45313" x="325.5" stroke-width="7" fill="#ffffff"/>
+                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="140.45313" x2="545.5" y1="140.45313" x1="325.5" stroke-width="5.5" stroke="#000000" fill="none"/>
+                                <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_17" y="129.45313" x="341.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Orm</text>
+                            </g>
+
+                            <g>
+                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="205.45313" x2="323.50862" y1="205.45313" x1="265.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                            </g>
+
+                            <g>
+                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="415.5" x2="420" y1="390" x1="420" stroke-width="5.5" fill="none"/>
+                                <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_23" cy="288" cx="472" fill-opacity="null" stroke-width="5.5" fill="none"/>
+                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="402" x2="472.5" y1="402" x1="414" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="404" x2="471.5" y1="297" x1="471.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" fill="none"/>
+                            </g>
+
+                            <g>
+                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="415.5" x2="179.5" y1="390" x1="179.5" stroke-width="5.5" fill="none"/>
+                                <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_19" cy="287.95313" cx="111" fill-opacity="null" stroke-width="5.5" fill="none"/>
+                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="402.45313" x2="186" y1="402.45313" x1="111" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="403.54433" x2="111.5" y1="297.45313" x1="111.5" stroke-width="5.5" fill="none"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="-mr-2 -my-2 md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                        <!-- Heroicon name: menu -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+                <nav class="hidden md:flex space-x-10">
+                    <div class="relative">
+                        <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+<!--                        <button type="button" class="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
+<!--                            <span>Solutions</span>-->
+<!--                            &lt;!&ndash;-->
+<!--                              Heroicon name: chevron-down-->
+
+<!--                              Item active: "text-gray-600", Item inactive: "text-gray-400"-->
+<!--                            &ndash;&gt;-->
+<!--                            <svg class="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">-->
+<!--                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />-->
+<!--                            </svg>-->
+<!--                        </button>-->
+
+                        <!--
+                          'Solutions' flyout menu, show/hide based on flyout menu state.
+
+                          Entering: "transition ease-out duration-200"
+                            From: "opacity-0 translate-y-1"
+                            To: "opacity-100 translate-y-0"
+                          Leaving: "transition ease-in duration-150"
+                            From: "opacity-100 translate-y-0"
+                            To: "opacity-0 translate-y-1"
+                        -->
+                        <div class="absolute -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2 invisible">
+                            <div class="rounded-lg shadow-lg">
+                                <div class="rounded-lg shadow-xs overflow-hidden">
+                                    <div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                        <a href="#" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                                            <!-- Heroicon name: chart-bar -->
+                                            <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                            </svg>
+                                            <div class="space-y-1">
+                                                <p class="text-base leading-6 font-medium text-gray-900">
+                                                    test
+                                                </p>
+                                                <p class="text-sm leading-5 text-gray-500">
+                                                  test
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        Jeloquent
+                    </a>
+
+<!--                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
+<!--                        Sudoku-->
+<!--                    </a>-->
+
+<!--                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
+<!--                        Chess-->
+<!--                    </a>-->
+
+                </nav>
+                <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
+                    <a href="https://github.com/mbroersen/jeloquent/wiki" class="whitespace-no-wrap text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900">
+                        Learn more
+                    </a>
+                    <span class="inline-flex rounded-md shadow-sm">
+              <a href="https://github.com/mbroersen/jeloquent/wiki/Quick-Setup" class="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+                Get started
+              </a>
+            </span>
+                </div>
+            </div>
+        </div>
+
+        <!--
+          Mobile menu, show/hide based on mobile menu state.
+
+          Entering: "duration-200 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+          Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+
+    </div>
+</nav>
+<header class="bg-white shadow">
+    <div class="mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <h1 class="text-3xl font-bold leading-tight text-gray-900">
+            Jeloquent
+        </h1>
+    </div>
+</header>
+<main>
+
+<!--    <div class="max-w-screen-sm mx-auto px-4 sm:px-6 lg:px-8 py-6 " >-->
+<!--        <div class="lg:text-center ">-->
+<!--            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Get started</h3>-->
+<!--            <div class="inline-flex rounded-md shadow bg-gray-100 p-4 rounded-md">-->
+<!--                <div class="overflow-y-auto w-full font-mono">-->
+<!--                    npm i jeloquent-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <p class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Main Goals</p>
+                <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                    Easy access to your models and there relations.
+                </h3>
+                <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+                    Jeloquent is an orm that uses a memory store to manage the data sets for the models and his relations.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <ul class="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <li>
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                    <!-- Heroicon name: globe-alt -->
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg leading-6 font-medium text-gray-900">Laravel Eloquent Relation Names</h4>
+                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                    HasMany, BelongsTo, HasOne. Use the relations you as laravel developer has come accustomed to.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mt-10 md:mt-0">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                    <!-- Heroicon name: scale -->
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg leading-6 font-medium text-gray-900">Return Collections</h4>
+                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                    Combines the power of vanilla javascript array and laravel collections.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mt-10 md:mt-0">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                    <!-- Heroicon name: lightning-bolt -->
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg leading-6 font-medium text-gray-900">Quick and easy setup</h4>
+                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                    Setup models by extending Jeloquents model class.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mt-10 md:mt-0">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                    <!-- Heroicon name: annotation -->
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg leading-6 font-medium text-gray-900">Lightweight and for modern browsers</h4>
+                                <p class="mt-2 text-base leading-6 text-gray-500">
+                                    We build for modern browsers to keep the package fast en lightweight, keeping all the features.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+<section>
+    <div class="bg-gray-50">
+        <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                Ready to dive in?
+                <br>
+                <span class="text-indigo-600">Try Jeloquent today.</span>
+            </h2>
+            <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+                <div class="inline-flex rounded-md shadow">
+                    <a href="https://github.com/mbroersen/jeloquent/wiki" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        Get started
+                    </a>
+                </div>
+                <div class="ml-3 inline-flex rounded-md shadow">
+                    <a href="https://github.com/mbroersen/jeloquent/wiki/Quick-Setup" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="flex justify-center border-t-2">
+        <a href="https://github.com/mbroersen/jeloquent" class="text-gray-700 hover:text-gray-800 m-2">
+            <svg viewBox="0 0 600 600" style="width:24px; height:24px"  xmlns="http://www.w3.org/2000/svg">
+                <title>Jeloquent Logo</title>
+                <g>
+                    <title>Jeloquent - package</title>
+                    <rect stroke="#000000" id="svg_1" height="166" width="220" y="110.45313" x="41.5" stroke-width="7" fill="#ffffff"/>
+                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="139.45313" x2="261.5" y1="139.45313" x1="41.5" stroke-width="6" stroke="#000000" fill="none"/>
+                    <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_16" y="129.45313" x="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Jeloquent</text>
+                </g>
+
+                <g>
+                    <title>Js - javascript</title>
+                    <rect stroke="#000000" id="svg_5" height="166" width="220" y="322.45313" x="190" stroke-width="7" fill="#ffffff"/>
+                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="352.45313" x2="408.5" y1="352.45313" x1="188.5" stroke-width="5.5" stroke="#000000" fill="none"/>
+                    <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_18" y="341.45313" x="202.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Js</text>
+                </g>
+
+                <g>
+                    <title>Orm - memory store</title>
+                    <rect stroke="#000000" id="svg_9" height="166" width="220" y="110.45313" x="325.5" stroke-width="7" fill="#ffffff"/>
+                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="140.45313" x2="545.5" y1="140.45313" x1="325.5" stroke-width="5.5" stroke="#000000" fill="none"/>
+                    <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_17" y="129.45313" x="341.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Orm</text>
+                </g>
+
+                <g>
+                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="205.45313" x2="323.50862" y1="205.45313" x1="265.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                </g>
+
+                <g>
+                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="415.5" x2="420" y1="390" x1="420" stroke-width="5.5" fill="none"/>
+                    <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_23" cy="288" cx="472" fill-opacity="null" stroke-width="5.5" fill="none"/>
+                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="402" x2="472.5" y1="402" x1="414" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="404" x2="471.5" y1="297" x1="471.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" fill="none"/>
+                </g>
+
+                <g>
+                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="415.5" x2="179.5" y1="390" x1="179.5" stroke-width="5.5" fill="none"/>
+                    <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_19" cy="287.95313" cx="111" fill-opacity="null" stroke-width="5.5" fill="none"/>
+                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="402.45313" x2="186" y1="402.45313" x1="111" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="403.54433" x2="111.5" y1="297.45313" x1="111.5" stroke-width="5.5" fill="none"/>
+                </g>
+            </svg>
+        </a>
+
+        <a href="https://github.com/mbroersen" class="text-gray-700 hover:text-gray-800 m-2">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
+                />
+            </svg>
+        </a>
+    </div>
+</footer>
+
 </body>
 </html>
