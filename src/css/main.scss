@@ -1,0 +1,19 @@
+@import "~tailwindcss/dist/base.min.css";
+@import "~tailwindcss/dist/tailwind.min.css";
+@import "~tailwindcss/dist/utilities.min.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    div {
+        font-family: arial;
+        font-size: 18px;
+
+        .hello {
+            border: 1px solid black;
+        }
+    }
+
+    @import "sudoku";
+}

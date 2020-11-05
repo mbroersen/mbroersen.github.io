@@ -1,0 +1,61 @@
+#sudoku-container {
+    > .loaderContainer {
+        transform: scale(.9);
+
+        svg {
+            width: 100%;
+            height: auto;
+            /*    shape-rendering: optimizeSpeed;*/
+        }
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    #sudoku-container input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+
+    table {
+        min-height: 320px;
+        max-height: 450px;
+        min-width: 320px;
+        max-width: 450px;
+
+        td {
+            max-width: calc(450px / 9);
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100%;
+            border: 1px solid #4c4c4c;
+            overflow: hidden;
+
+            input {
+                max-width: calc((450px / 9) - 8px) ;
+                width: 100%;
+                font-size: 40px;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 100%;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            &[disabled='true'] {
+                background: #333333;
+                color: #cccccc;
+            }
+
+
+        }
+    }
+}

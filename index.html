@@ -2,19 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mark Broersen</title>
+    <title>Mark Broersen2</title>
     <link rel="stylesheet" href="public/css/main.css">
+
+
 </head>
 <body class="text-gray-900 antialiased leading-tight">
-<!--
-Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
-Read the documentation to get started: https://tailwindui.com/documentation
--->
-<!--
-  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
-  Read the documentation to get started: https://tailwindui.com/documentation
--->
-<!-- This example requires Tailwind CSS v1.4.0+ -->
+
 <nav>
     <div class="relative bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
@@ -22,45 +16,7 @@ Read the documentation to get started: https://tailwindui.com/documentation
                 <div class="lg:w-0 lg:flex-1">
                     <a href="#" class="flex">
                         <svg viewBox="0 0 600 600" class="h-8 w-auto sm:h-10" xmlns="http://www.w3.org/2000/svg">
-                            <title>Jeloquent Logo</title>
-                            <g>
-                                <title>Jeloquent - package</title>
-                                <rect stroke="#000000" id="svg_1" height="166" width="220" y="110.45313" x="41.5" stroke-width="7" fill="#ffffff"/>
-                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="139.45313" x2="261.5" y1="139.45313" x1="41.5" stroke-width="6" stroke="#000000" fill="none"/>
-                                <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_16" y="129.45313" x="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Jeloquent</text>
-                            </g>
-
-                            <g>
-                                <title>Js - javascript</title>
-                                <rect stroke="#000000" id="svg_5" height="166" width="220" y="322.45313" x="190" stroke-width="7" fill="#ffffff"/>
-                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="352.45313" x2="408.5" y1="352.45313" x1="188.5" stroke-width="5.5" stroke="#000000" fill="none"/>
-                                <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_18" y="341.45313" x="202.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Js</text>
-                            </g>
-
-                            <g>
-                                <title>Orm - memory store</title>
-                                <rect stroke="#000000" id="svg_9" height="166" width="220" y="110.45313" x="325.5" stroke-width="7" fill="#ffffff"/>
-                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="140.45313" x2="545.5" y1="140.45313" x1="325.5" stroke-width="5.5" stroke="#000000" fill="none"/>
-                                <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_17" y="129.45313" x="341.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Orm</text>
-                            </g>
-
-                            <g>
-                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="205.45313" x2="323.50862" y1="205.45313" x1="265.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
-                            </g>
-
-                            <g>
-                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="415.5" x2="420" y1="390" x1="420" stroke-width="5.5" fill="none"/>
-                                <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_23" cy="288" cx="472" fill-opacity="null" stroke-width="5.5" fill="none"/>
-                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="402" x2="472.5" y1="402" x1="414" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
-                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="404" x2="471.5" y1="297" x1="471.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" fill="none"/>
-                            </g>
-
-                            <g>
-                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="415.5" x2="179.5" y1="390" x1="179.5" stroke-width="5.5" fill="none"/>
-                                <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_19" cy="287.95313" cx="111" fill-opacity="null" stroke-width="5.5" fill="none"/>
-                                <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="402.45313" x2="186" y1="402.45313" x1="111" stroke-width="5.5" stroke="#ce7975" fill="none"/>
-                                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="403.54433" x2="111.5" y1="297.45313" x1="111.5" stroke-width="5.5" fill="none"/>
-                            </g>
+                            <use xlink:href="#jeloquent-icon"></use>
                         </svg>
                     </a>
                 </div>
@@ -122,13 +78,13 @@ Read the documentation to get started: https://tailwindui.com/documentation
                         </div>
                     </div>
 
-                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                    <a href="#" onclick="showJeloquent()" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                         Jeloquent
                     </a>
 
-<!--                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
-<!--                        Sudoku-->
-<!--                    </a>-->
+                    <a href="#" onclick="showSudoku()" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        Sudoku
+                    </a>
 
 <!--                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
 <!--                        Chess-->
@@ -168,7 +124,28 @@ Read the documentation to get started: https://tailwindui.com/documentation
         </h1>
     </div>
 </header>
-<main>
+
+<main id="sudoku" class="hidden">
+    <div class="flex justify-center w-full bg-gray-200 min-h-400">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <div id="sudoku-container" class="w-full "></div>
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Sudoku</div>
+                <p class="text-gray-700 text-base">
+                    Javascript sudoku game generator.
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">generate</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<main id="jeloquent" class="visible">
 
 <!--    <div class="max-w-screen-sm mx-auto px-4 sm:px-6 lg:px-8 py-6 " >-->
 <!--        <div class="lg:text-center ">-->
@@ -271,9 +248,6 @@ Read the documentation to get started: https://tailwindui.com/documentation
             </div>
         </div>
     </div>
-
-
-
 </main>
 <section>
     <div class="bg-gray-50">
@@ -302,56 +276,98 @@ Read the documentation to get started: https://tailwindui.com/documentation
     <div class="flex justify-center border-t-2">
         <a href="https://github.com/mbroersen/jeloquent" class="text-gray-700 hover:text-gray-800 m-2">
             <svg viewBox="0 0 600 600" style="width:24px; height:24px"  xmlns="http://www.w3.org/2000/svg">
-                <title>Jeloquent Logo</title>
-                <g>
-                    <title>Jeloquent - package</title>
-                    <rect stroke="#000000" id="svg_1" height="166" width="220" y="110.45313" x="41.5" stroke-width="7" fill="#ffffff"/>
-                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="139.45313" x2="261.5" y1="139.45313" x1="41.5" stroke-width="6" stroke="#000000" fill="none"/>
-                    <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_16" y="129.45313" x="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Jeloquent</text>
-                </g>
-
-                <g>
-                    <title>Js - javascript</title>
-                    <rect stroke="#000000" id="svg_5" height="166" width="220" y="322.45313" x="190" stroke-width="7" fill="#ffffff"/>
-                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="352.45313" x2="408.5" y1="352.45313" x1="188.5" stroke-width="5.5" stroke="#000000" fill="none"/>
-                    <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_18" y="341.45313" x="202.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Js</text>
-                </g>
-
-                <g>
-                    <title>Orm - memory store</title>
-                    <rect stroke="#000000" id="svg_9" height="166" width="220" y="110.45313" x="325.5" stroke-width="7" fill="#ffffff"/>
-                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="140.45313" x2="545.5" y1="140.45313" x1="325.5" stroke-width="5.5" stroke="#000000" fill="none"/>
-                    <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_17" y="129.45313" x="341.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Orm</text>
-                </g>
-
-                <g>
-                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="205.45313" x2="323.50862" y1="205.45313" x1="265.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
-                </g>
-
-                <g>
-                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="415.5" x2="420" y1="390" x1="420" stroke-width="5.5" fill="none"/>
-                    <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_23" cy="288" cx="472" fill-opacity="null" stroke-width="5.5" fill="none"/>
-                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="402" x2="472.5" y1="402" x1="414" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
-                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="404" x2="471.5" y1="297" x1="471.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" fill="none"/>
-                </g>
-
-                <g>
-                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="415.5" x2="179.5" y1="390" x1="179.5" stroke-width="5.5" fill="none"/>
-                    <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_19" cy="287.95313" cx="111" fill-opacity="null" stroke-width="5.5" fill="none"/>
-                    <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="402.45313" x2="186" y1="402.45313" x1="111" stroke-width="5.5" stroke="#ce7975" fill="none"/>
-                    <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="403.54433" x2="111.5" y1="297.45313" x1="111.5" stroke-width="5.5" fill="none"/>
-                </g>
+                <use xlink:href="#jeloquent-icon"></use>
             </svg>
         </a>
 
         <a href="https://github.com/mbroersen" class="text-gray-700 hover:text-gray-800 m-2">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-                />
+                <use xlink:href="#github-icon"></use>
             </svg>
         </a>
     </div>
 </footer>
 
+<svg style="height: 0; width: 0;">
+    <defs>
+        <symbol id="jeloquent-icon">
+            <title>Jeloquent Logo</title>
+            <g>
+                <title>Jeloquent - package</title>
+                <rect stroke="#000000" id="svg_1" height="166" width="220" y="110.45313" x="41.5" stroke-width="7" fill="#ffffff"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_2" y2="139.45313" x2="261.5" y1="139.45313" x1="41.5" stroke-width="6" stroke="#000000" fill="none"/>
+                <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_16" y="129.45313" x="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Jeloquent</text>
+            </g>
+
+            <g>
+                <title>Js - javascript</title>
+                <rect stroke="#000000" id="svg_5" height="166" width="220" y="322.45313" x="190" stroke-width="7" fill="#ffffff"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="352.45313" x2="408.5" y1="352.45313" x1="188.5" stroke-width="5.5" stroke="#000000" fill="none"/>
+                <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_18" y="341.45313" x="202.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Js</text>
+            </g>
+
+            <g>
+                <title>Orm - memory store</title>
+                <rect stroke="#000000" id="svg_9" height="166" width="220" y="110.45313" x="325.5" stroke-width="7" fill="#ffffff"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="140.45313" x2="545.5" y1="140.45313" x1="325.5" stroke-width="5.5" stroke="#000000" fill="none"/>
+                <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="12" id="svg_17" y="129.45313" x="341.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#ce7975" fill="#000000">Orm</text>
+            </g>
+
+            <g>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="205.45313" x2="323.50862" y1="205.45313" x1="265.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+            </g>
+
+            <g>
+                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_22" y2="415.5" x2="420" y1="390" x1="420" stroke-width="5.5" fill="none"/>
+                <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_23" cy="288" cx="472" fill-opacity="null" stroke-width="5.5" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_14" y2="402" x2="472.5" y1="402" x1="414" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="404" x2="471.5" y1="297" x1="471.5" fill-opacity="null" stroke-opacity="null" stroke-width="5.5" fill="none"/>
+            </g>
+
+            <g>
+                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_20" y2="415.5" x2="179.5" y1="390" x1="179.5" stroke-width="5.5" fill="none"/>
+                <ellipse stroke="#ce7975" ry="7.5" rx="7.5" id="svg_19" cy="287.95313" cx="111" fill-opacity="null" stroke-width="5.5" fill="none"/>
+                <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="402.45313" x2="186" y1="402.45313" x1="111" stroke-width="5.5" stroke="#ce7975" fill="none"/>
+                <line stroke="#ce7975" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="403.54433" x2="111.5" y1="297.45313" x1="111.5" stroke-width="5.5" fill="none"/>
+            </g><!-- insert all paths and shapes for first svg here -->
+        </symbol>
+        <symbol id="github-icon">
+            <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
+            />
+        </symbol>
+    </defs>
+</svg>
+
+    <script src="public/js/sudoku.js"></script>
+    <script>
+        function showJeloquent() {
+            let m = document.querySelector('main.visible');
+
+            m.classList.remove('visible');
+            m.classList.add('hidden');
+
+            document.querySelector('#jeloquent').classList.remove('hidden');
+            document.querySelector('#jeloquent').classList.add('visible');
+        }
+
+
+        function showSudoku() {
+            let m = document.querySelector('main.visible');
+
+            m.classList.remove('visible');
+            m.classList.add('hidden');
+
+            document.querySelector('#sudoku').classList.remove('hidden');
+            document.querySelector('#sudoku').classList.add('visible');
+
+            Sudoku.GenerateView.showLoader();
+
+            setTimeout(() => {
+                Sudoku.GameGenerator.newGame();
+                Sudoku.GenerateView.removeLoader();
+                Sudoku.GenerateView.createView();
+            }, 1000);
+        }
+    </script>
 </body>
 </html>
