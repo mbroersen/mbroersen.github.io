@@ -25,8 +25,17 @@
     table {
         min-height: 320px;
         max-height: 450px;
-        min-width: 320px;
-        max-width: 450px;
+        width: calc(100% - 8px);
+        min-width: calc(320px - 8px);
+        max-width: calc(450px - 8px);
+        margin: 4px;
+
+        tr {
+            &:nth-child(3), &:nth-child(6) {
+                border-bottom: 4px solid #4c4c4c;
+            }
+        }
+
 
         td {
             max-width: calc(450px / 9);
@@ -36,6 +45,10 @@
             line-height: 100%;
             border: 1px solid #4c4c4c;
             overflow: hidden;
+
+            &:nth-child(3), &:nth-child(6) {
+                border-right: 4px solid #4c4c4c;
+            }
 
             input {
                 max-width: calc((450px / 9) - 8px) ;
