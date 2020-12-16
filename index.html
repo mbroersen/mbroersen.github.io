@@ -89,9 +89,9 @@
                         Sudoku
                     </a>
 
-<!--                    <a href="#" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
-<!--                        Chess-->
-<!--                    </a>-->
+                    <a href="#" onclick="showChess()" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        Chess
+                    </a>
 
                 </nav>
                 <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
@@ -159,6 +159,10 @@
             </div>
         </div>
     </div>
+</main>
+
+<main id="chess" class="hidden" >
+    <div id="chess-app" style="font-size: 28px"></div>
 </main>
 
 
@@ -276,12 +280,12 @@
             </h2>
             <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
                 <div class="inline-flex rounded-md shadow">
-                    <a href="https://github.com/mbroersen/jeloquent/wiki" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                    <a href="https://github.com/mbroersen/jeloquent/wiki/Quick-Setup" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
                         Get started
                     </a>
                 </div>
                 <div class="ml-3 inline-flex rounded-md shadow">
-                    <a href="https://github.com/mbroersen/jeloquent/wiki/Quick-Setup" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                    <a href="https://github.com/mbroersen/jeloquent/wiki" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
                         Learn more
                     </a>
                 </div>
@@ -356,6 +360,7 @@
 </svg>
 
     <script src="public/js/sudoku.js"></script>
+    <script src="public/js/chess.js"></script>
     <script>
         function toggleMobileMenu() {
             let m = document.querySelector('#mobile-menu');
@@ -380,6 +385,15 @@
 
             document.querySelector('#jeloquent').classList.remove('hidden');
             document.querySelector('#jeloquent').classList.add('visible');
+        }
+
+
+        function showChess() {
+            Chess.GameController.createGame();
+            Chess.GameController.showBoard(1);
+
+            document.querySelector('#chess').classList.remove('hidden');
+            document.querySelector('#chess').classList.add('visible');
         }
 
 
